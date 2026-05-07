@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Приглашение на свадьбу</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section id="hero" class="section-hero" data-date="2026-08-15">
+        <div class="container hero-inner">
+          <h1 class="hero-title">Владислав и Дарья</h1>
+          <img class="hero-photo" src="Assets/photo1.jpg" alt="Фото пары" />
+        </div>
+      </section>
+
+      <section id="section2" class="section-story reveal" aria-label="Секция про момент">
+        <div class="container story-grid">
+          <div class="story-img">
+            <img src="Assets/photo2.jpg" alt="Фото пары" />
+          </div>
+          <div class="story-text">
+            <div class="divider" aria-hidden="true">
+              <span class="line"></span>
+              <span class="diamond"></span>
+              <span class="line"></span>
+            </div>
+            <h2>Приглашение на свадьбу!</h2>
+            <p>Здравствуйте, дорогие гости! Мы решили отпраздновать наше бракосочетание и нам важно, чтобы вы присутствовали на этом мероприятии. Нам будет очень приятно разделить этот момент с вами и будем рады, если вы придёте!</p>
+            <div class="divider" aria-hidden="true">
+              <span class="line"></span>
+              <span class="diamond"></span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="date" class="section-date reveal">
+        <div class="container date-layout">
+          <div class="date-info">
+            <h2>Дата свадьбы</h2>
+            <p>15 августа 2026</p>
+          </div>
+          <div class="calendar" id="calendar-Aug2026" aria-label="Календарь августа 2026"></div>
+        </div>
+      </section>
+
+      <section id="location" class="section-location reveal">
+        <div class="container location-grid">
+          <div class="location-image">
+            <img src="Assets/photo3.jpg" alt="Локация" />
+          </div>
+          <div class="location-content">
+            <h2>Локация</h2>
+            <p><a class="restaurant-link" href="https://dachashefa.ru/" target="_blank" rel="noopener">Ресторан Дача Шефа</a></p>
+            <p>Адрес: Город Волгоград, ул. Краснознаменская, д. 18А</p>
+            <div class="spacer" style="height:14px"></div>
+            <a class="btn btn-black-outline" href="https://maps.google.com/?q=Волгоград+ул.+Краснознаменская+д.+18А" target="_blank" rel="noopener">Как добраться</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="timing" class="section-timing reveal">
+        <div class="container">
+          <h2 class="timing-title">Расписание</h2>
+          <div class="timing-row">
+            <span class="timing-line-h"></span>
+            <div class="timing-item">
+              <div class="timing-time">13:50</div>
+              <div class="timing-label">Фотосессия</div>
+            </div>
+            <div class="timing-item">
+              <div class="timing-time">15:30</div>
+              <div class="timing-label">Роспись<br>в ЗАГСе</div>
+            </div>
+            <div class="timing-item">
+              <div class="timing-time">17:00</div>
+              <div class="timing-label">Банкет</div>
+            </div>
+            <div class="timing-item">
+              <div class="timing-time">21:00</div>
+              <div class="timing-label">Завершение<br>официальной части</div>
+            </div>
+            <span class="timing-line-h"></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="details" class="section-details reveal">
+        <div class="container details-grid">
+          <div class="details-text">
+            <h2>Детали события</h2>
+            <p>Мы устраиваем скромное мероприятие только для самых близких, поэтому нам важно ваше присутствие, а не то как вы одеты. Главное берите с собой хорошее настроение и улыбки. Можно кричать Горько! Танцевать, смеяться и веселиться! Мы надеемся, что этот праздник запомнится надолго!</p>
+          </div>
+          <div class="details-photo">
+            <img src="Assets/photo4.jpg" alt="Наша история" />
+          </div>
+        </div>
+      </section>
+
+      <section id="countdown" class="section-countdown reveal">
+        <div class="container">
+          <h2>До нашей свадьбы осталось</h2>
+          <div class="divider" aria-hidden="true">
+            <span class="line"></span>
+            <span class="diamond"></span>
+            <span class="line"></span>
+          </div>
+          <div class="countdown-rail" aria-label="До свадьбы осталось">
+            <div class="countbox">
+              <span id="cd-days" class="cd-value">00</span>
+              <div class="cd-label">Дней</div>
+            </div>
+            <span class="sep">/</span>
+            <div class="countbox">
+              <span id="cd-hours" class="cd-value">00</span>
+              <div class="cd-label">Часов</div>
+            </div>
+            <span class="sep">/</span>
+            <div class="countbox">
+              <span id="cd-mins" class="cd-value">00</span>
+              <div class="cd-label">Минут</div>
+            </div>
+            <span class="sep">/</span>
+            <div class="countbox">
+              <span id="cd-secs" class="cd-value">00</span>
+              <div class="cd-label">Секунд</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <audio id="bg-music" loop preload="auto">
+      <source src="Assets/sound1.mp3" type="audio/mpeg">
+    </audio>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
