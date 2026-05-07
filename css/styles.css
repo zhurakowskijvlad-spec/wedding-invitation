@@ -23,7 +23,7 @@ body{margin:0;font-family:var(--body); color:var(--text); background:var(--bg); 
 .hero-title{ font-family:var(--heading); font-size:72px; line-height:1.0; margin:0 0 10px; text-transform:none; letter-spacing:0; }
 .hero-date{ display:flex; justify-content:center; align-items:center; gap:24px; color:#333; font-family:Inter, system-ui; font-size:20px; margin:6px 0 20px; }
 .hero-date .line{ height:1px; width:180px; background:#555; display:inline-block; }
-.hero-photo{ width:420px; max-width:100%; height:auto; aspect-ratio:1; border-radius:50%; object-fit:cover; display:block; margin:20px auto 0; border:8px solid #fff; box-shadow:0 4px 20px rgba(0,0,0,0.08); }
+.hero-photo{ width:420px; max-width:100%; height:auto; aspect-ratio:1; border-radius:50%; object-fit:cover; display:block; margin:20px auto 80px; border:8px solid #fff; box-shadow:0 4px 20px rgba(0,0,0,0.08); }
 .countdown{font-size:18px; color:var(--text); margin:12px 0 18px}
 .countdown span{font-weight:700; color:var(--accent); margin:0 6px}
 .btn{display:inline-block; padding:12px 22px; border-radius:999px; background: #f6d7e3; color:#6b2a4a; text-decoration:none; border:1px solid #e7b3c5; font-weight:600}
@@ -136,11 +136,11 @@ body{margin:0;font-family:var(--body); color:var(--text); background:var(--bg); 
   .details-text p{font-size:15px}
   .details-photo img{width:90%}
   .section-timing{padding:50px 0}
-  .timing-title{font-size:22px;letter-spacing:1px}
+  .timing-title{font-size:25px;letter-spacing:1px}
   .timing-row{flex-direction:column;align-items:center;gap:16px}
   .timing-line-h{display:none}
-  .timing-time{font-size:22px}
-  .timing-label{font-size:13px}
+  .timing-time{font-size:25px}
+  .timing-label{font-size:15px}
   .section-countdown{padding:30px 0}
   .section-countdown h2{font-size:14px;letter-spacing:1px;margin-bottom:10px}
   .section-countdown .divider{display:none}
@@ -159,12 +159,12 @@ body{margin:0;font-family:var(--body); color:var(--text); background:var(--bg); 
 .section-story .story-img{ order:2; width:100%; max-width:320px; }
 .section-story .story-img img{ width:100%; display:block; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
 .section-timing{ padding:80px 0; background:#fff; text-align:center; }
-.timing-title{ font-family:var(--heading); font-size:40px; color:var(--text); margin:0 0 40px; font-weight:400; letter-spacing:3px; text-transform:uppercase; }
+.timing-title{ font-family:var(--heading); font-size:53px; color:var(--text); margin:0 0 40px; font-weight:400; letter-spacing:3px; text-transform:uppercase; }
 .timing-row{ display:flex; justify-content:center; align-items:flex-start; gap:40px; }
 .timing-line-h{ display:inline-block; width:120px; height:1px; background:var(--text); margin-top:22px; flex-shrink:0; }
 .timing-item{ text-align:center; min-width:100px; }
-.timing-time{ font-family:var(--heading); font-size:32px; font-weight:400; color:var(--text); margin-bottom:4px; line-height:1.2; }
-.timing-label{ font-family:var(--body); font-size:14px; color:var(--muted); line-height:1.5; }
+.timing-time{ font-family:var(--heading); font-size:43px; font-weight:400; color:var(--text); margin-bottom:4px; line-height:1.2; }
+.timing-label{ font-family:var(--body); font-size:18px; color:var(--muted); line-height:1.5; }
 
 @media (max-width: 900px){
   .hero-title{font-size:52px}
