@@ -151,7 +151,9 @@ body{margin:0;font-family:var(--body); color:var(--text); background:var(--bg); 
   .gallery-grid{grid-template-columns:1fr}
 }
 .section-story{ padding:60px 0; }
-.section-story .story-grid{ display:grid; grid-template-columns:1fr; gap:30px; }
+.section-story .story-grid{ display:grid; grid-template-columns:1fr; gap:20px; justify-items:center; }
+.section-story .story-text{ order:1; text-align:center; }
+.section-story .story-img{ order:2; width:100%; max-width:360px; margin:0 auto; }
 .section-story .story-img img{ width:100%; height:auto; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
 .section-story .story-text h2{ font-family:var(--heading); font-size:52px; margin:0 0 12px; }
 .section-story .story-text p{ font-family:var(--body); font-size:18px; line-height:1.7; color:#555; max-width:640px; margin:0 0 12px; }
