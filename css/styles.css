@@ -91,9 +91,9 @@ body{margin:0;font-family:var(--body); color:var(--text); background:var(--bg); 
 .section-countdown .line{ height: 1px; width: 260px; background:#333; display:inline-block; }
 .section-countdown .diamond{ width:12px; height:12px; display:inline-block; transform: rotate(45deg); border:2px solid #333; }
 
-/* Scroll reveal - sections start visible, JS adds animate class for smooth fade-in */
-.section-animate{ opacity:0; transform:translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
-.section-animate.visible{ opacity:1; transform:translateY(0); }
+/* Scroll reveal */
+.section-animate{ opacity:0 !important; transform:translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.section-animate.visible{ opacity:1 !important; transform:translateY(0); }
 .timeline-details, .timeline-container, .timeline, .timeline-item, .timeline-icon, .timeline-time, .timeline-label, .timeline-divider, .diamond {
   display: none !important;
 }
