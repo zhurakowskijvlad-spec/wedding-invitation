@@ -38,6 +38,23 @@ document.addEventListener('DOMContentLoaded', function() {
     generateCalendar(calRoot, 2026, 7, 15);
   }
 
+  // Scroll reveal: sections fade in when entering viewport
+  var animatedSections = document.querySelectorAll('.section-animate');
+  if (animatedSections.length > 0) {
+    var sectionObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.05 });
+    animatedSections.forEach(function(el) { sectionObserver.observe(el); });
+    // Safety: make all visible after 3 seconds in case observer fails
+    setTimeout(function() {
+      animatedSections.forEach(function(el) { el.classList.add('visible'); });
+    }, 3000);
+  }
+
   // Autoplay music on first user interaction
   var bgMusic = document.getElementById('bg-music');
   if (bgMusic) {
