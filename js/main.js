@@ -38,41 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
     generateCalendar(calRoot, 2026, 7, 15);
   }
 
-  // Scroll reveal animation
-  const reveals = document.querySelectorAll('.reveal');
-  if (reveals.length > 0) {
-    const observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.15 });
-    reveals.forEach(function(el) { observer.observe(el); });
-  }
-
-  // Parallax effect on hero
-  var hero = document.querySelector('.section-hero');
-  if (hero) {
-    window.addEventListener('scroll', function() {
-      var scrollY = window.pageYOffset;
-      hero.style.backgroundPositionY = (scrollY * 0.3) + 'px';
-    }, { passive: true });
-  }
-
-  // Reveal photos on scroll (scale up)
-  var revealPhotos = document.querySelectorAll('.reveal-photo');
-  if (revealPhotos.length > 0) {
-    var photoObserver = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.2 });
-    revealPhotos.forEach(function(el) { photoObserver.observe(el); });
-  }
-
   // Autoplay music on first user interaction
   var bgMusic = document.getElementById('bg-music');
   if (bgMusic) {
