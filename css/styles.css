@@ -96,8 +96,8 @@ body{margin:0;font-family:var(--body); color:var(--text); background:var(--bg); 
 .section-countdown .diamond{ width:12px; height:12px; display:inline-block; transform: rotate(45deg); border:2px solid #333; }
 
 /* Reveal */
-.reveal{ opacity:0; transform:translateY(40px); transition: opacity 0.8s ease, transform 0.8s ease; }
-.reveal.visible{ opacity:1; transform:translateY(0); }
+.reveal-photo{ opacity:0; transform:scale(0.95); transition: opacity 0.8s ease, transform 0.8s ease; }
+.reveal-photo.visible{ opacity:1; transform:scale(1); }
 
 /* Gallery */
 .section-gallery{padding:84px 0; background:#fff}
