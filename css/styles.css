@@ -51,6 +51,7 @@ body{margin:0;font-family:var(--body); color:var(--text); background:var(--bg); 
 
 /* Location */
 .section-location{ padding:60px 0; text-align:center; }
+.section-location h2{ font-family:var(--heading); font-size:40px; margin:0 0 24px; }
 .location-grid{ display:grid; grid-template-columns: 1fr; gap:20px; align-items:center; justify-items:center; }
 .location-image img{ width:100%; height:auto; border-radius:6px; }
 .location-content h2{ font-family:var(--heading); font-size:40px; margin:0 0 8px; }
