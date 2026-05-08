@@ -17,7 +17,7 @@ body{margin:0;font-family:var(--body); color:var(--text); background:var(--bg); 
 .container{max-width:var(--container); margin:0 auto; padding:0 16px;}
 
 /* Hero */
-.section-hero{padding:0 0 40px; text-align:center; background:#f5f5f5;}
+.section-hero{padding:60px 0 40px; text-align:center; background:#f5f5f5;}
 .hero-inner{ padding:60px 0 80px; }
 .hero-title{ font-family:var(--heading); font-size:72px; line-height:1.0; margin:80px 0 40px; text-transform:none; letter-spacing:0; }
 .hero-date{ display:flex; justify-content:center; align-items:center; gap:24px; color:#333; font-family:var(--body); font-size:20px; margin:6px 0 20px; }
